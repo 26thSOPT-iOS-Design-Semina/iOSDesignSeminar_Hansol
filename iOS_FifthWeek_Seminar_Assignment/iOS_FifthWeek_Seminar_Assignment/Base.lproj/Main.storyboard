@@ -226,6 +226,16 @@
                                                         <constraint firstAttribute="bottom" secondItem="A7R-OI-Vns" secondAttribute="bottom" constant="40" id="xlf-Yf-RhL"/>
                                                     </constraints>
                                                 </collectionViewCellContentView>
+                                                <connections>
+                                                    <outlet property="ddateLabel" destination="Geq-Ij-cio" id="Lgg-Vg-Esq"/>
+                                                    <outlet property="ddayLabel" destination="oN7-VR-KPY" id="04W-Bn-mo8"/>
+                                                    <outlet property="mainImgView" destination="LLP-Kx-Hzn" id="sel-Oo-Oh3"/>
+                                                    <outlet property="nameLabel" destination="WLv-48-7mX" id="5Mc-yb-MVu"/>
+                                                    <outlet property="pic1View" destination="Nix-Mm-E6C" id="qtf-3L-SBh"/>
+                                                    <outlet property="pic2View" destination="mI3-5i-0He" id="9XR-Fq-K9I"/>
+                                                    <outlet property="pic3View" destination="A7R-OI-Vns" id="wZz-o0-Jbu"/>
+                                                    <outlet property="typeImgView" destination="wCP-tA-eM3" id="v2h-Iw-z4b"/>
+                                                </connections>
                                             </collectionViewCell>
                                         </cells>
                                     </collectionView>
@@ -374,6 +384,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="qI1-kr-rfS" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9iD-VA-Wbc">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>

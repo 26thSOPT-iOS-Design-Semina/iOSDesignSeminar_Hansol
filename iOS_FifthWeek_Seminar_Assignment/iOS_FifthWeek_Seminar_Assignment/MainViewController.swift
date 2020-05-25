@@ -21,10 +21,7 @@ class MainViewController: UIViewController {
     private var cardList : [Card] = []
     
     private func setCardList() {
-        let card1 = Card(dday: "전역일 D- 435", ddate: "2021-12-31", imgName: "mainImgPic", typeName: "mainiconArmy", name: "박준석", rank: "훈련병", pic1Name: "mainJpgMask1", pic2Name: "mainJpgMask2", pic3Name: "mainJpgMask3")
-        let card2 = Card(dday: "전역일 D- 435", ddate: "2021-12-31", imgName: "mainImgPic", typeName: "mainiconArmy", name: "박준석", rank: "훈련병", pic1Name: "mainJpgMask1", pic2Name: "mainJpgMask2", pic3Name: "mainJpgMask3")
-        let card3 = Card(dday: "전역일 D- 435", ddate: "2021-12-31", imgName: "mainImgPic", typeName: "mainiconArmy", name: "박준석", rank: "훈련병", pic1Name: "mainJpgMask1", pic2Name: "mainJpgMask2", pic3Name: "mainJpgMask3")
-        let card4 = Card(dday: "전역일 D- 435", ddate: "2021-12-31", imgName: "mainImgPic", typeName: "mainiconArmy", name: "박준석", rank: "훈련병", pic1Name: "mainJpgMask1", pic2Name: "mainJpgMask2", pic3Name: "mainJpgMask3")
+        let card1 = Card(dday: "전역일 D- 435", ddate: "2021-12-31", imgName: "mainImgPic", typeName: "mainiconArmy", name: "박준석 훈련병", pic1Name: "mainJpgMask1", pic2Name: "mainJpgMask2", pic3Name: "mainJpgMask3")
     }
 
     /*

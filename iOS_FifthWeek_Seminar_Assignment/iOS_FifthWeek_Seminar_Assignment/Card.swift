@@ -15,18 +15,16 @@ struct Card {
     var mainImg : UIImage?
     var armytype : UIImage?
     var name : String
-    var rank : String
     var pic1 : UIImage?
     var pic2 : UIImage?
     var pic3 : UIImage?
     
-    init(dday:String, ddate:String, imgName:String, typeName:String, name:String, rank:String, pic1Name:String, pic2Name: String, pic3Name: String) {
+    init(dday:String, ddate:String, imgName:String, typeName:String, name:String, pic1Name:String, pic2Name: String, pic3Name: String) {
         self.dday = dday
         self.ddate = ddate
         self.mainImg = UIImage(named: imgName)
         self.armytype = UIImage(named: typeName)
         self.name = name
-        self.rank = rank
         self.pic1 = UIImage(named: pic1Name)
         self.pic2 = UIImage(named: pic2Name)
         self.pic3 = UIImage(named: pic3Name)
